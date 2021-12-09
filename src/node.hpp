@@ -17,7 +17,7 @@ struct node
     node() = default;
     ~node() = default;
 
-    node(char _symbol, int _freq)
+    node(char _symbol, size_t _freq)
         : symbol { _symbol }
         , freq { _freq }
     {
