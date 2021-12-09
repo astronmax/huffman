@@ -10,7 +10,7 @@
 struct node
 {
     char symbol;
-    int freq; // count of symbol repeating
+    size_t freq; // count of symbol repeating
     std::shared_ptr<node> left; // left subtree pointer
     std::shared_ptr<node> right; // right subtree pointer
 

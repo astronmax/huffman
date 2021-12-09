@@ -9,7 +9,7 @@
 #include <node.hpp>
 
 // Function builds Huffman tree for unordered map with symbols frequency
-auto build_huffman_tree(std::unordered_map<char, int> freq_map) -> std::shared_ptr<node>
+auto build_huffman_tree(std::unordered_map<char, size_t> freq_map) -> std::shared_ptr<node>
 {
     // for a shorter code
     using node_vector = std::vector<std::shared_ptr<node>>;
